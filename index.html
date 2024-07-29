@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Age calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="utilities.css">
+</head>
+
+<body>
+  <main class="flex justify-centre align-item">
+    <div class="container">
+      <div class="top flex">
+        <div class=" date flex flex-col  ">
+          <p class="heading">DAY</p>
+          <input class=" input input-day" type="text" placeholder="DD">
+          <p class=" hide error error-day">Must be a valid day</p>
+
+        </div>
+        <div class=" month flex flex-col">
+          <p class="heading">MONTH</p>
+          <input class=" input input-month" type="text" placeholder="MM">
+          <p class=" hide error error-month">Must be a valid month</p>
+
+        </div>
+        <div class=" year flex flex-col">
+          <p class="heading">YEAR</p>
+          <input class=" input input-year" type="text" placeholder="YYYY">
+          <p class=" hide error error-year">Must be in the past</p>
+
+        </div>
+      </div>
+      <div class="middel flex justify-centre align-item">
+        <div class="line"></div>
+        <img class="image" src="/assets/images/Untitled_design__1_-removebg-preview.png" alt="">
+
+      </div>
+      <div class="age">
+      <div class="flex final-age">
+        <p class=" output black purple years-output">--</p>
+        <p class=" output  balck">years</p>
+      </div>
+      <div class="flex final-age">
+        <p class=" output purple months-output">--</p>
+        <p class=" output  balck">months</p>
+      </div>
+      <div class="flex final-age">
+        <p class=" output purple days-output ">--</p>
+        <p class=" output  balck">days</p>
+      </div>
+    </div>
+    </div>
+
+  </main>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Kaustubha Saxena</a>.
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>

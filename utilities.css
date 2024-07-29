@@ -1,0 +1,24 @@
+.flex{
+    display: flex;
+}
+.flex-col{
+    flex-direction: column;
+}
+.justify-centre{
+    justify-content: center;
+}
+.align-item{
+    align-items: center;
+}
+.black{
+    color: black;
+}
+.purple{
+    color: var(--Purple); 
+}
+.border-red{
+    border: 2px solid red;
+}
+.hide{
+    visibility: hidden;
+}
